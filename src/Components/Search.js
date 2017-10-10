@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+ import React, { Component } from 'react';
 
 class Search extends Component {
     constructor() {
@@ -11,16 +11,10 @@ class Search extends Component {
 
     static defaultProps = {
             dateOptions: [
-            { value: '01.01.17', label: '01.01.17' },
-            { value: '02.01.17', label: '02.01.17' },
-            { value: '03.01.17', label: '03.01.17' },
+            { value: '2012-12-21T00:00:00.000Z', label: '2012-12-21T00:00:00.000Z' },
+            { value: '2012-12-22T00:00:00.000Z', label: '2012-12-22T00:00:00.000Z' },
             ], 
-            techOptions: [
-            { value: 'react', label: 'React' },
-            { value: 'meteor', label: 'meteor' },
-            { value: 'angular', label: 'angular' },
-            ]
-    };
+            };
 
     handleChange(event) {
         this.props.updateFilters({
