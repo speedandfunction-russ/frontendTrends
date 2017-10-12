@@ -11,9 +11,10 @@ class Search extends Component {
 
     static defaultProps = {
             dateOptions: [
-            { value: '2012-12-21T00:00:00.000Z', label: '2012-12-21T00:00:00.000Z' },
-            { value: '2012-12-22T00:00:00.000Z', label: '2012-12-22T00:00:00.000Z' },
-            ], 
+                    { value: '2017-01-01T00:00:00.000Z', label: '2017-01-01' },
+                    { value: '2017-01-02T00:00:00.000Z', label: '2017-01-02' },
+                    { value: '2017-01-03T00:00:00.000Z', label: '2017-01-03' },
+                ], 
             };
 
     handleChange(event) {

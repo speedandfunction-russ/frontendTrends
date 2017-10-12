@@ -52,7 +52,7 @@ class App extends Component {
         };
         return (myFunc(mid));
       };//createArray
-      let { data } = createArray(response);
+      let data = createArray(response.data);
       this.setState({
       chart: data
       });
